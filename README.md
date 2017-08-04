@@ -66,7 +66,7 @@ $ git push heroku master
 ```
 
 Now, head over to the `settings` tab of your Heroku app (https://dashboard.heroku.com/apps/<YOUR_APP_NAME>/settings) in order to set the environment variables.
-Set the following variables (__make sure to set the addresses as you wish__):
+Set the following variables (__make sure to set the addresses you wish__):
 
 Name | Value
 ------------ | -------------
@@ -84,6 +84,8 @@ ADDRESS_2_NAME | office
 
 The endpoint ".../request/:device/:lat/:lng/:radius" will be called each time a message is sent to the Sigfox Backend (see below how to configure it). By using the Sigfox geolocalization service, the server will receive the Sens'it approximated position.
 This will then order an UberX with the determined pick-up and drop-off addresses.
+
+To check if the app is running, go to its URL. You should see "App is running..." on your browser. You can also check the logs for more details.
 
 #### [Optional] Free SMS notifications with a french mobile operator (named Free)
 If you have a french Free mobile operator subscription, you can use their free SMS notification API in order to get notifications on your phone.
