@@ -1,0 +1,7 @@
+{
+  "name": "Sigfox Uber",
+  "description": "Order an UberX ride by pressing a simple button!",
+  "repository": "https://github.com/AntoinedeChassey/sigfox_uber.git",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["Node", "Sens'it", "Sigfox", "Uber", "api"]
+}

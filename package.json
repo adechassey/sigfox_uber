@@ -1,0 +1,29 @@
+{
+  "name": "sigfox_uber",
+  "version": "1.0.0",
+  "description": "Get an Uber ride with Sigfox!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoinedeChassey/sigfox_uber.git"
+  },
+  "keywords": [
+    "Uber",
+    "Sigfox",
+    "SIM-less"
+  ],
+  "author": "Antoine de Chassey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoinedeChassey/sigfox_uber/issues"
+  },
+  "homepage": "https://github.com/AntoinedeChassey/sigfox_uber#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "uber_ride_request": "^1.1.0"
+  }
+}
