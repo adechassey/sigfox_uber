@@ -2,6 +2,15 @@
 
 Get an __Uber ride__ just by _pressing_ a button!
 
+## Introduction
+
+In this tutorial, we will be using the Sigfox network localization service _(which can, __for now__, give at most a 1km radius position precision)_ in order to get a the closest position to a specified address and request an Uber ride accordingly.
+Therefore, we do not need a device with GPS.
+
+We will use a [Sens'it](https://www.sensit.io/?lang=fr) but __any device able to send a message over Sigfox can be used to accomplish this tutorial successfully__.
+
+Have a look __[here](http://makers.sigfox.com/)__ if you wish to have more details regarding Sigfox makers.   
+
 ## Hardware
 - A [Sens'it](https://www.sensit.io/?lang=fr)
 
@@ -61,7 +70,7 @@ An alternative way to get it running at Heroku is to install the [Heroku Cli](ht
 ```bash
 $ git clone https://github.com/AntoinedeChassey/sigfox_uber.git
 $ cd sigfox_uber
-$ heroku apps:create sigfox_uber
+$ heroku apps:create <YOUR_APP_NAME>
 $ git push heroku master
 ```
 
