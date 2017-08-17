@@ -24,6 +24,6 @@
   "homepage": "https://github.com/AntoinedeChassey/sigfox_uber#readme",
   "dependencies": {
     "express": "^4.15.3",
-    "uber_ride_request": "^1.1.0"
+    "uber-ride-request": "^1.0.0"
   }
 }

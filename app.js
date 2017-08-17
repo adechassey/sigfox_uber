@@ -1,4 +1,4 @@
-const Client = require('uber_ride_request'),
+const Client = require('uber-ride-request'),
     express = require('express'),
     app = express(),
     server = require('http').Server(app),

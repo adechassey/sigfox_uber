@@ -21,8 +21,8 @@ Have a look __[here](http://makers.sigfox.com/)__ if you wish to have more detai
 ## The Uber API
 We will be automating the ordering process of a ride request by calling Uber API endpoints.
 
-In order to understand how this is possible, please make sure to check out the [node module](https://github.com/AntoinedeChassey/uber_ride_request) I developed for usage simplicity and clarity purposes. You will need an __access token__ to the Uber API for it to work.
-The proceedure of how to get this token can be found on __[this](https://github.com/AntoinedeChassey/uber_ride_request)__ GitHub page.
+In order to understand how this is possible, please make sure to check out the [node module](https://github.com/AntoinedeChassey/uber-ride-request) I developed for usage simplicity and clarity purposes. You will need an __access token__ to the Uber API for it to work.
+The proceedure of how to get this token can be found on __[this](https://github.com/AntoinedeChassey/uber-ride-request)__ GitHub page.
 
 ### Prerequisites
 - An Uber valid account
